@@ -1,180 +1,116 @@
 var friends = [
     {
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
-    "scores": [
-    "5",
-    "1",
-    "4",
-    "4",
-    "5",
-    "1",
-    "2",
-    "5",
-    "4",
-    "1"
-    ]
+        "name": "Brett Kavanaugh",
+        "photo": "https://img.huffingtonpost.com/asset/5bb2623b260000360081ce8a.jpeg?ops=scalefit_720_noupscale",
+        "scores": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+        ]
+    },
+        {
+        "name": "Xi JingPing",
+        "photo": "https://images.mid-day.com/images/2018/oct/jinping-china_d.jpg",
+        "scores": [
+        "5",
+        "2",
+        "5",
+        "2",
+        "1",
+        "1",
+        "3",
+        "2",
+        "5",
+        "5"
+        ]
     },
     {
-    "name": "Jacob Deming",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
-    "scores": [
-    "4",
-    "2",
-    "5",
-    "1",
-    "3",
-    "2",
-    "2",
-    "1",
-    "3",
-    "2"
-    ]
+        "name": "Donald Trump",
+        "photo": "https://thenypost.files.wordpress.com/2018/05/donald-trump-hair.jpg?quality=90&strip=all&w=618&h=410&crop=1",
+        "scores": [
+        "3",
+        "3",
+        "4",
+        "2",
+        "1",
+        "1",
+        "3",
+        "2",
+        "2",
+        "3"
+        ]
     },
     {
-    "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
-    "scores": [
-    "5",
-    "2",
-    "2",
-    "2",
-    "4",
-    "1",
-    "3",
-    "2",
-    "5",
-    "5"
-    ]
+        "name": "Recep Erdogan",
+        "photo": "https://images.jacobinmag.com/2018/01/19161903/GettyImages-849634930.jpg",
+        "scores": [
+        "4",
+        "3",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "3",
+        "1",
+        "4"
+        ]
     },
     {
-    "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
-    "scores": [
-    "3",
-    "3",
-    "4",
-    "2",
-    "2",
-    "1",
-    "3",
-    "2",
-    "2",
-    "3"
-    ]
+        "name": "Terissa May",
+        "photo": "https://cdn1.img.sputniknews.com/images/106855/85/1068558517.jpg",
+        "scores": [
+        "4",
+        "4",
+        "2",
+        "5",
+        "2",
+        "2",
+        "3",
+        "2",
+        "4",
+        "5"
+        ]
     },
     {
-    "name": "Lou Ritter",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
-    "scores": [
-    "4",
-    "3",
-    "4",
-    "1",
-    "5",
-    "2",
-    "5",
-    "3",
-    "1",
-    "4"
-    ]
+        "name": "Kim Jong-Un",
+        "photo": "https://e3.365dm.com/18/04/1096x616/skynews-kim-jong-un-north-korea_4278358.jpg?20180409133856",
+        "scores": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+        ]
     },
     {
-    "name": "Jordan Biason",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
-    "scores": [
-    "4",
-    "4",
-    "2",
-    "3",
-    "2",
-    "2",
-    "3",
-    "2",
-    "4",
-    "5"
-    ]
+        "name": "Teddy",
+        "photo": "https://thumbs-prod.si-cdn.com/HdqGC9Sj_Q4U_rrsDYrW-ANDVKA=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/57/9c/579c64d1-cc6e-40c0-afaa-7bae324e8ac2/theodore-roosevelt-laughing.jpg",
+        "scores": [
+        "4",
+        "3",
+        "1",
+        "4",
+        "4",
+        "3",
+        "2",
+        "4",
+        "4",
+        "1"
+        ]
     },
-    {
-    "name": "Test Test",
-    "photo": "test",
-    "scores": [
-    "2",
-    "2",
-    "2",
-    "2",
-    "2",
-    "2",
-    "2",
-    "2",
-    "2",
-    "2"
-    ]
-    },
-    {
-    "name": "Thomas",
-    "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Fimg_lights.jpg&imgrefurl=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Fw3css_images.asp&docid=R0KnAtfyBDsyiM&tbnid=kwgHAQqTiLQXLM%3A&vet=10ahUKEwix7e_hp_DdAhVF1IMKHaifCOwQMwiBASgBMAE..i&w=600&h=400&bih=644&biw=1422&q=image&ved=0ahUKEwix7e_hp_DdAhVF1IMKHaifCOwQMwiBASgBMAE&iact=mrc&uact=8",
-    "scores": [
-    "4",
-    "3",
-    "1",
-    "4",
-    "3",
-    "3",
-    "2",
-    "4",
-    "4",
-    "1"
-    ]
-    },
-    {
-    "name": "Han",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg/220px-Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg",
-    "scores": [
-    "2",
-    "4",
-    "1",
-    "2",
-    "1",
-    "4",
-    "5",
-    "2",
-    "1",
-    "1"
-    ]
-    },
-    {
-    "name": "1",
-    "photo": "1",
-    "scores": [
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1"
-    ]
-    },
-    {
-    "name": "1",
-    "photo": "1",
-    "scores": [
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1"
-    ]
-    }
-    ]
+]
 
 module.exports = friends;
